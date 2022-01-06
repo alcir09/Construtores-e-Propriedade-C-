@@ -7,8 +7,24 @@ namespace ExemploConstrutores{
 
         static void Main(string[] args){
 
-            Aluno p1 = new Aluno("Alcir", "Amorim", "ADS");
-             p1.Apresentar();
+            const double pi = 3.14;
+
+            System.Console.WriteLine(pi);
+
+            // Data data = new Data();
+
+            //data.SetMes(20);
+
+            // data.Mes = 3;
+
+            //System.Console.WriteLine(data.Mes);
+
+            //System.Console.WriteLine(data.Mes);
+
+            // data.ApresentarMes();
+
+            // Aluno p1 = new Aluno("Alcir", "Amorim", "ADS");
+            //  p1.Apresentar();
 
             // Log log = Log.GetInstance();
 
