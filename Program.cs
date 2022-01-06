@@ -9,10 +9,14 @@ namespace ExemploConstrutores{
 
         static void Main(string[] args){
 
-            Operacao op = new Operacao(Calculadora.Somar);
-            op += Calculadora.Subtrair;
+            Matematica m = new Matematica(10, 20);
 
-            op.Invoke(10,10);
+            m.Somar();
+
+            // Operacao op = new Operacao(Calculadora.Somar);
+            // op += Calculadora.Subtrair;
+
+            // op.Invoke(10,10);
 
             // op(10,20);
 
